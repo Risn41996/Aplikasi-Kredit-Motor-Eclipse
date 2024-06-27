@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".DataMotorActivity" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:gravity="center"
+        android:paddingBottom="24dp"
+        android:text="Data Motor" />
+
+    <Button
+        android:id="@+id/btTambahMotor"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:onClick="KlikbtTambahMotor"
+        android:text="Tambah Motor" />
+
+    <Button
+        android:id="@+id/btRefreshDataMotor"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:onClick="KlikbtRefreshDataMotor"
+        android:text="Refresh" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="top" >
+
+        <ScrollView
+            android:id="@+id/verticalScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top" >
+            
+            <TableLayout
+                android:id="@+id/tbMotor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+ 				android:layout_marginTop="1dp" >
+                
+            </TableLayout>"
+        </ScrollView>
+    </HorizontalScrollView>
+
+</LinearLayout>

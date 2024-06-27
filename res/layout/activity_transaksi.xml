@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="KlikbtPembayaranAngsuran"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".TransaksiActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="Transaksi" />
+
+    <Button
+        android:id="@+id/btPengajuanKredit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:onClick="KlikbtPengajuanKredit"
+        android:text="Pengajuan Kredit" />
+
+    <Button
+        android:id="@+id/btPembayaranAngsuran"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btPengajuanKredit"
+        android:layout_alignRight="@+id/btPengajuanKredit"
+        android:layout_below="@+id/btPengajuanKredit"
+        android:text="Pembayaran Angsuran" />
+
+    <Button
+        android:id="@+id/btDataPengajuanKredit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btPembayaranAngsuran"
+        android:layout_alignRight="@+id/btPembayaranAngsuran"
+        android:layout_below="@+id/btPembayaranAngsuran"
+        android:onClick="KlikbtDataPengajuanKredit"
+        android:text="Data Pengajuan Kredit" />
+
+    <Button
+        android:id="@+id/btDataPembayaranAngsuran"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btDataPengajuanKredit"
+        android:layout_alignRight="@+id/btDataPengajuanKredit"
+        android:layout_below="@+id/btDataPengajuanKredit"
+        android:text="Data Pembayaran Angsuran" />
+
+</RelativeLayout>

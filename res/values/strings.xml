@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FarihahAmaliaFikria&amp;FridaErviana</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_transaksi">TransaksiActivity</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="title_activity_data_petugas">DataPetugasActivity</string>
+    <string name="title_activity_data_motor">DataMotorActivity</string>
+    <string name="title_activity_data_kreditor">DataKreditorActivity</string>
+    <string name="title_activity_pengajuan_kredit">PengajuanKreditActivity</string>
+    <string name="title_activity_pembayaran_angsuran">PembayaranAngsuranActivity</string>
+    <string name="title_activity_data_pengajuan_kredit">DataPengajuanKreditActivity</string>
+
+</resources>
