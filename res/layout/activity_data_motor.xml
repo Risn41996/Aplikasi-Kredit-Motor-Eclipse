@@ -1,4 +1,10 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:paddingBottom="24dp"
+        android:text="Data Motor" />
+
+    <Button
+        android:id="@+id/btTambahMotor"
+        android:layout_width="280dp"<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/LinearLayout1"
     android:layout_width="match_parent"
@@ -15,12 +21,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="26dp"
         android:gravity="center"
-        android:paddingBottom="24dp"
-        android:text="Data Motor" />
-
-    <Button
-        android:id="@+id/btTambahMotor"
-        android:layout_width="280dp"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:onClick="KlikbtTambahMotor"
