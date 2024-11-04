@@ -1,4 +1,4 @@
-package com.example.project_kreditmotor_farihahamaliafikriaRisnawulansaeri;
+package com.example.project_kreditmotor_farihahamaliafikriaRisnawulansari;
 
 import java.util.ArrayList;
 
